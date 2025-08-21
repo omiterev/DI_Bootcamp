@@ -7,10 +7,12 @@ elif len(u_string) > 10:
 else:
     print("Perfect string")
 print(u_string[0], u_string[-1])
+
 new_string =""
 for l in u_string:
     new_string += l
     print(new_string)
+
 list_string = list(u_string)
 random.shuffle(list_string)
 shuffle_string = "".join(list_string)
