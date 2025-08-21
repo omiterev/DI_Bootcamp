@@ -15,12 +15,12 @@ basket = ["Banana", "Apples", "Oranges", "Blueberries"]
 basket.remove('Banana')
 basket.remove("Blueberries")
 basket.append("Kiwi")
-basket.append("Apples")
+basket.append(0,"Apples")
 print(basket.count("Apples"))
 basket.clear()
 print(basket)
 #4
-i=1
+i=1.5
 list_f=[]
 while i<=5:
     list_f.append(i)    

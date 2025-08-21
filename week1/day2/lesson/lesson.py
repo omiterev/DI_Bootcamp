@@ -18,3 +18,4 @@ for i in range(1,21):
     numbers.append(i)
     if numbers.index(i) % 2 == 0:
         print(i)
+
