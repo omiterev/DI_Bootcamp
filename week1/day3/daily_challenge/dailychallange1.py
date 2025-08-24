@@ -21,6 +21,7 @@ for item, price in int_purchase.items():
     if price<=int_wallet:
         affordable_items.append(item)
 affordable_items.sort()
-if affordable_items==None:
+if not affordable_items:
     print("Nothing")
-print(affordable_items)
+else:
+    print(affordable_items)
