@@ -22,5 +22,15 @@ while number_count<4:
     u_number_list.append(u_number)
     number_count+=1
 u_number_list.sort()
-print(u_number_list[-1])
+print("The greatest number is: " + u_number_list[-1])
 #5
+alfabet_list=""
+for i in range(97,123):
+    alfabet_list+=chr(i)
+print(alfabet_list)
+for l in alfabet_list:
+    if l in "aeiou":
+        print(f"{l} is a vowel")
+    else:
+        print(f"{l} is a consonant")
+#6
