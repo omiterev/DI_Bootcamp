@@ -14,9 +14,9 @@ wallet = "$300"
 int_purchase={}
 affordable_items=[]
 for i, p in items_purchase.items():
-    price=int(p.replace("$","").replace(",",""))
+    price=int(p.strip("$").replace(",",""))
     int_purchase[i]=price
-int_wallet=int(wallet.replace("$","").replace(",",""))
+int_wallet=int(wallet.strip("$").replace(",",""))
 for item, price in int_purchase.items():
     if price<=int_wallet:
         affordable_items.append(item)

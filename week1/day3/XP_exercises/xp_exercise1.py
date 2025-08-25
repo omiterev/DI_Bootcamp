@@ -7,7 +7,7 @@ print(general_dict)
 
 #2
 family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
-ticket_cost = 0
+tickets=0
 while True:
     family_inp_name=input("Enter the family member's name or quit: ")
     if family_inp_name == "quit":
@@ -18,11 +18,12 @@ for name, age in family.items():
     if age < 3:
         print(f"{name} the ticket is free.")
     elif 3<=age<=12:
-        ticket_cost += 10
-        print(f"For {name} the ticket is {ticket_cost} $.")
+        tickets += 10
+        print(f"For {name} the ticket is {10} $.")
     elif age > 12:
-        ticket_cost += 15
-        print(f"For {name} the ticket is {ticket_cost} $.")
+        tickets += 15
+        print(f"For {name} the ticket is {15} $.")
+print(f"The total cost of the tickets is {tickets} $")
 #3
 brand = {
     "name": "Zara",
@@ -60,5 +61,5 @@ print(dict1)
 dict2={num: user for num, user in enumerate(users)}
 print(dict2)
 users.sort()
-dict3={num: user for num, user in enumerate(users)}
+dict3={num: user for user, num in enumerate(users)}
 print(dict3)
