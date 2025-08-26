@@ -7,6 +7,7 @@
 # [*******************]
 g=[[' ',' ',' '],[' ',' ',' '],[' ',' ',' ']]
 def display_board():
+    '''Display the board'''
     print('*******************')
     print(f'*   {g[0][0]} |  {g[0][1]}  | {g[0][2]}   *')
     print('* ----|-----|---- *')
@@ -16,6 +17,7 @@ def display_board():
     print('*******************\n')
 
 def player_input(player0):
+    '''Get and check player input and put it in game board'''
     ran=['1','2','3']
     flag_empty=False
     while flag_empty==False:
@@ -37,6 +39,7 @@ def player_input(player0):
     return row, col
 
 def check_win_tie(player0='i'): #board, player
+    '''check if player won the game or if it is tie'''
     game_flag=False
     r1=g[0][0]
     r2=g[0][1]
