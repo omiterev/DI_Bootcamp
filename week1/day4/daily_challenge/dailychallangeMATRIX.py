@@ -7,17 +7,20 @@ sM#
 $a 
 #t%'''
 D2_list=[]
-help_list=[]
-for l in matrix_str:
-    if l !="\n":
-        help_list.append(l)
-    elif l=="\n":
-         if help_list:
-            D2_list.append(help_list)
-            help_list=[]
-if help_list:
-    D2_list.append(help_list)
-print(D2_list)
+rows = [row for row in matrix_str.split("\n") if row]
+print(rows)
+D2_list = [list(row) for row in rows]
+# help_list=[]
+# for l in matrix_str:
+#     if l !="\n":
+#         help_list.append(l)
+#     elif l=="\n":
+#          if help_list:
+#             D2_list.append(help_list)
+#             help_list=[]
+# if help_list:
+#     D2_list.append(help_list)
+# print(D2_list)
 
 matrix=''
 row=len(D2_list)
