@@ -58,7 +58,7 @@ def check_win_tie(player0='i'): #board, player
         game_flag=True
         print('\nTie')
         return game_flag
-    else:
+    else: 
         return game_flag
 
 game_flag=False

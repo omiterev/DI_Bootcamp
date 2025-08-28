@@ -13,9 +13,10 @@ user_sentence=input('Enter your sentence: ')
 def longest_word(sentence:str)-> str:
     '''Return the longest word in sentence'''
     word_list=sentence.split()
-    longest_word=word_list[0]
-    for  word in word_list:
-        if len(word)>len(longest_word):
-            longest_word=word
+    longest_word=max(word_list, key=len)
+    # longest_word=word_list[0]
+    # for  word in word_list:
+    #     if len(word)>len(longest_word):
+    #         longest_word=word
     return longest_word
 print(longest_word(user_sentence))
