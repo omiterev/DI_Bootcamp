@@ -1,4 +1,4 @@
-from XP_exercises import Dog
+from XP_exercises1 import Dog
 import random
 class PetDog(Dog):
     def __init__(self, name, age, weight, trained=False):
