@@ -6,7 +6,7 @@ class Pagination:
         if items==None:
             self.items=[]
         self.current_idx=0
-        self.total_pages=math.ceil((len(self.items)+1)/page_size)
+        self.total_pages=math.ceil(len(self.items)/page_size)
         pass
     def get_visible_items(self):
         start=self.current_idx*self.page_size
@@ -29,7 +29,6 @@ class Pagination:
     def next_page(self):
         page_num=self.current_idx+1
         if page_num==self.total_pages:
-            print('Last page.')
             return self
         else:
             self.current_idx+=1
@@ -37,14 +36,12 @@ class Pagination:
     def previous_page(self):
         page_num=self.current_idx-1
         if page_num<0:
-            print('Fitst page.')
             return self
         else:
             self.current_idx-=1
             return self
     def __str__(self):
         return "\n".join(str(x) for x in self.get_visible_items())
-        pass
 
 
 alphabetList = list("abcdefghijklmnopqrstuvwxyz")
@@ -65,4 +62,7 @@ print(p.current_idx + 1)
 # Output: 7
 
 p.go_to_page(0)
-# Raises ValueError
+# Raises 
+
+print(p.__str__())
+
