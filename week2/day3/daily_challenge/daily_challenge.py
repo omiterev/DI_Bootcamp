@@ -22,7 +22,7 @@ class Circle:
         return self.radius*2
     
     def area(self):
-        return math.pi * (self.radius ** 2)
+        return round(math.pi * (self.radius ** 2)),2
     
     def __str__(self):
         return f'Circle radius is {self.radius}, circle diametr is {self.diameter}'
