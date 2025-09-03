@@ -30,6 +30,6 @@ def main():
         else:
             raise ValueError('Nomber shold be from 2 to 20')
     except ValueError as e:
-        print(ValueError, e)
+        print(ValueError,e)
 
 main()
