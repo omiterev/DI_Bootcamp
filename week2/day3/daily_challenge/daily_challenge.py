@@ -17,6 +17,10 @@ class Circle:
                 self.radius=diameter/2
         else:
             raise ValueError ('Enter radius or diameter')
+    # @classmethod
+    # def radius(cls, radius):
+    #     return cls(radius diameter=radius*2)
+    
     @property
     def diameter(self):
         return self.radius*2
