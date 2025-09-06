@@ -1,0 +1,21 @@
+Еxercise 1
+Data analysis means looking at data and trying to understand it. It is when we take numbers or information and find out what they mean.
+Why is data analysis important?
+Because today we have a lot of data everywhere. Without analysis it is just random numbers. With analysis we can make better choices, save money, and understand people or business better.
+Three areas where it is used today
+Health. Doctors use data to check diseases and how people feel.
+Money.Banks use data to see who can get a loan and to stop fraud.
+Shopping online.Shops use data to show us what we may want to buy.
+
+Exercise 4
+SepalLengthCm-quantitative
+SepalWidthCm-quantitative
+PetalLengthCm-quantitative
+PetalWidthCm-quantitative
+Species-qualitative
+
+Exercise 6
+Year-good for trends (to see if people sleep more or less with time).
+Avg hrs per day sleeping-main number to study (how much people sleep).
+Standard Error-shows if the data is reliable or not.
+If we put Year and Avg hrs per day sleeping together, we can see if sleep changes over the years. If we look at Standard Error, we can see how sure we are about these numbers.
