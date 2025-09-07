@@ -1,0 +1,56 @@
+Introduction
+
+Forests are more than trees — they cool the air, store carbon, and save lives.
+
+Today, satellites, sensors, and health data give us millions of data points about forests.
+
+With Data Analysis + AI, we can understand the impact of deforestation and act faster.
+
+ Case 1 — Deadly Heat from Deforestation
+
+Data used: satellite images, local temperature, mortality data.
+
+Findings: around 28,000 deaths per year linked to heat caused by deforestation.
+
+Data Analysis role: showed the direct link between tree loss and human deaths.
+
+AI role: Computer Vision detects deforestation automatically from satellite photos.
+Impact: proved that protecting forests = protecting human health.
+
+ Case 2 — 500,000 Deaths in 20 Years
+
+Source: Nature Climate Change study.
+
+Data used: global forest loss maps + climate data + mortality stats.
+
+Findings: half a million deaths in 20 years due to heat from forest loss.
+
+AI role: predictive models simulate “what if” scenarios (future deaths with/without deforestation).
+Impact: data turns abstract “climate change” into measurable human cost.
+
+Case 3 — Colombia Reduces Deforestation
+
+Data used: satellite monitoring + environmental reports.
+
+Action: communities + government + AI-based monitoring.
+
+Result: deforestation down by 33% in 2025; in national parks – down 54%.
+Impact: shows that combining data analysis and action leads to real change.
+
+ Data → Analysis → AI → Impact
+
+Data Collection: satellites, sensors, health statistics.
+
+Data Analysis: correlations (forest loss → higher temperature → more deaths).
+
+AI: automates detection, predicts risks, supports decision-making.
+
+Impact: better policies, less illegal logging, lives saved.
+
+ Conclusion
+
+Data analysis and AI make invisible things visible: they show the hidden cost of deforestation.
+
+Forest protection is not just about nature — it’s about people’s lives.
+
+With the right data and AI tools, governments and communities can act faster and smarter.
